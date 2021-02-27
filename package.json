@@ -1,0 +1,14 @@
+{
+  "name": "modanisa-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
+}
