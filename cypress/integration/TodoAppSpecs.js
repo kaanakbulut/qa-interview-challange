@@ -5,7 +5,7 @@ describe('The Todos App', () => {
 
     const toDoItems = {
         item1: "buy some milk",
-        item2: "enjoy the assignmen",
+        item2: "enjoy the assignment",
         item3: "rest for a while",
         item4: "drink water"
     }
@@ -81,6 +81,8 @@ describe('The Todos App', () => {
         cy.get('.new-todo')
             .type(toDoItems.item1)
             .type('{enter}')
+            .get('.toggle')
+            .click()
 
         //When
         cy.get('.toggle')
